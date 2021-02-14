@@ -1,0 +1,14 @@
+servers:
+  - name: server1
+    owner: john
+    created: 10232012
+    status: active
+
+  - name: server2
+    owner: asfgfg
+    created:10232323
+    status: inactive
+
+ansible  target1 -m ping
+ansible all -a "/sbin/reboot"
+ansible-playbook play-book-name.yaml

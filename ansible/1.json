@@ -1,0 +1,10 @@
+{
+  servers : [
+    {
+      name: server1,
+      owner: john,
+      created: 12232012,
+      status: active,
+    }
+  ]
+}
